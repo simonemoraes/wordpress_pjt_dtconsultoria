@@ -1,0 +1,135 @@
+html,
+body {
+    font-size: 15px;
+    color: #565656;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /*font-family: 'robotolight';*/
+    font-weight: 300;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+/* For Social Wrapper */
+.social{
+    background:#000;
+    padding:10px 0;
+}
+
+.social-wrapper .social-icon .fab{
+    margin-right: 10px;
+}
+.social-wrapper .social-icon a{
+    float:left;
+    font-size:13px;
+    color:#fff;
+}
+.social-wrapper .social-icon a:hover{
+    color:#82ca9c;
+}
+.social-wrapper .social-icon a i{
+    padding-right:10px;
+}
+.social-wrapper .social-contact{
+    float:right;
+    font-size:13px;
+}
+.social-wrapper .social-contact a{
+    color:#fff;
+    margin-right:20px;
+}
+.social-wrapper .social-contact a:hover{
+    color:#82ca9c;
+}
+.social-wrapper .social-contact a i{
+    padding-right:5px;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: transparent;
+    border-radius:0;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #82ca9c;
+    background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    /*font-size:14px;*/
+    /*font-weight:600;*/
+    text-transform:uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #82ca9c;
+}
+
+.custom-logo-link .custom-logo{
+    margin-top: 10px;
+}
+
+/* Home */
+.inicial{
+    background:url(../images/homebg.jpg);
+    color:#000;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
+
+.home-wrapper{
+    padding:180px 0px;
+    overflow:hidden;
+}
+.home-content h1{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.home-content p{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+
+.parallax-section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+section .subtitle h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'roboto', sans-serif;
+}
+
+.parallax-section {
+    max-width: 100%;
+    color: #ffffff;
+}
+
